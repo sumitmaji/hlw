@@ -5,9 +5,9 @@
 replicaCount: 1
 
 image:
-  repository: master.cloud.com:5000/hlw:latest
+  repository: master.cloud.com:5000/hlw
   tag: latest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   port: 5004
 
 service:
