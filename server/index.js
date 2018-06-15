@@ -5,9 +5,9 @@ app.get('/', (req, res) => {
   res.send('Hello World')
 })
 
-app.get('/healtz', (req, res) => {
+app.get('/healthz', (req, res) => {
   res.send('ok')
-  
+
 })
 
 app.use((err, req, res, next) => {
