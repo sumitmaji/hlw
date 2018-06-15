@@ -1,0 +1,4 @@
+IMAGE_NAME=sumit/hlw
+REPO_NAME=master.cloud.com:5000/hlw
+CONTAINER_NAME=hlw
+BUILD_PATH=/tmp
