@@ -21,7 +21,7 @@ ingress:
   path: /hlw
   hosts:
     - master.cloud.com
-  tls: []
+  tls:
     - secretName: ingress-certificate
       hosts:
         - master.cloud.com
