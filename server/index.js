@@ -5,6 +5,10 @@ app.get('/', (req, res) => {
   res.send('Hello World')
 })
 
+app.get('/healtz', (req, res) => {
+  res.send('ok')
+})
+
 app.use((err, req, res, next) => {
   res.status(403).send(err);
 });

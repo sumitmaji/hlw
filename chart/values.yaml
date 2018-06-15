@@ -5,13 +5,14 @@
 replicaCount: 1
 
 image:
-  repository: master.cloud.com:5000/hlw
+  repository: master.cloud.com:5000/hlw:latest
   tag: latest
   pullPolicy: IfNotPresent
+  port: 5004
 
 service:
   type: ClusterIP
-  port: 80
+  port: 5004
 
 ingress:
   enabled: true
