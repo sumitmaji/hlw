@@ -2,4 +2,4 @@
 
 source config
 
-docker pull $REPO_NAME
+docker pull $REGISTRY/$REPO_NAME
