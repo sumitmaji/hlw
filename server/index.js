@@ -13,5 +13,5 @@ app.use((err, req, res, next) => {
   res.status(403).send(err);
 });
 
-const PORT = process.env.PORT | 5004;
-app.listen();
+const PORT = process.env.PORT || 5004;
+app.listen(PORT);
