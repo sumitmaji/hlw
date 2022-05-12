@@ -28,4 +28,4 @@ The following table lists the configurable parameters of the docker-build and th
 | `PORT`                      | The port at which nodejs application is running.      | `5002`                 |
 | `IMAGE_NAME`                | The name of the docker image.                         | `sumit/$REPO_NAME`     |
 | `REPO_NAME`                 | The name of the repository in docker registry.        |                        |
-| `CONTAINER_NAME`            | The name of the container.                            |                        |
+| `CONTAINER_NAME`            | The name of the container. ..                           |                        |
