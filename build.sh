@@ -1,3 +1,3 @@
 #!/bin/bash
-#source config
+source configuration
 docker build -t $IMAGE_NAME . 
