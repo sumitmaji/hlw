@@ -23,7 +23,7 @@ ingress:
   hosts:
     - master.cloud.com
   tls:
-    - secretName: ingress-certificate
+    - secretName: appingress-certificate
       hosts:
         - master.cloud.com
 
