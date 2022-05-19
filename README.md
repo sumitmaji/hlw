@@ -5,7 +5,7 @@
 ```console
 ./build.sh
 ```
-- Run run.sh to start the container:
+- Run run.sh to start the container::
 ```console
 ./run.sh
 ```
